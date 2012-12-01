@@ -324,6 +324,7 @@ a {
         margin-left: -10px; }
 
 .caption {
+  background: url(images/blktint.png);
   background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 20px;
