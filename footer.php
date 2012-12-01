@@ -15,7 +15,7 @@
               <li><a href="#">General Information</a></li>
             </ul>
           </aside>
-          <a href="#" class="logo">
+          <a href="<?php echo home_url('/'); ?>" class="logo">
             <img src="<?php bloginfo('template_url'); ?>/images/footer_logo.png" alt="Mid-Columbia Warehouses Logo Graphic" />
           </a><!-- /.logo -->
         </footer><!-- /.wrapper -->

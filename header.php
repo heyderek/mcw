@@ -29,13 +29,13 @@
     <div class="page">
       <section class="masthead">
         <nav class="menu">
-          <div class="wrapper"><a href="#" class="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Mid-Columbia Warehouses Logo Graphic" /></a></div><!-- /.wrapper -->
+          <div class="wrapper"><a href="<?php echo home_url('/'); ?>" class="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Mid-Columbia Warehouses Logo Graphic" /></a></div><!-- /.wrapper -->
           <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'wrapper')); ?>
         </nav><!-- /.menu -->
         <header class="wrapper">
           <hgroup class="branding">
-            <h1>Mid-Columbia Warehouses</h1>
-            <h2>Complete Storage Facilities</h2>
+            <h1><?php bloginfo('name'); ?></h1>
+            <h2><?php bloginfo('description'); ?></h2>
           </hgroup><!-- /.branding -->
           <div class="location">
             <p>509-547-2194</p><!-- /.phone -->
