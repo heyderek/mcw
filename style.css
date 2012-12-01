@@ -297,19 +297,31 @@ a {
       border-bottom: 2px solid #999999;
       border-left: 2px solid #999999; }
 
-.featured-content .primary, .featured-content .secondary {
-  display: inline-block;
-  vertical-align: middle;
-  box-sizing: border-box;
-  white-space: nowrap; }
-  .featured-content .primary > *, .featured-content .secondary > * {
-    white-space: normal; }
-.featured-content .primary {
-  width: 33.75em; }
-.featured-content .secondary {
-  width: 43.75em;
-  line-height: 0;
-  text-align: center; }
+.featured-content {
+  z-index: 1; }
+  .featured-content .primary, .featured-content .secondary {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    white-space: nowrap; }
+    .featured-content .primary > *, .featured-content .secondary > * {
+      white-space: normal; }
+  .featured-content .primary {
+    width: 33.75em; }
+  .featured-content .secondary {
+    width: 43.75em;
+    line-height: 0;
+    text-align: center; }
+    .featured-content .secondary .ns-border-wrap {
+      background: white;
+      display: inline-block;
+      box-shadow: 3px -2px 5px rgba(0, 0, 0, 0.5);
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 0;
+      padding-left: 0; }
+      .featured-content .secondary .ns-border-wrap img {
+        margin-left: -10px; }
 
 .caption {
   background: rgba(0, 0, 0, 0.5);
@@ -335,6 +347,8 @@ a {
 
 .colophon {
   background: #333333;
+  z-index: 2;
+  position: relative;
   color: #999999;
   padding: 20px 0; }
   .colophon a {

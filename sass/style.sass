@@ -13,7 +13,7 @@ $threes: #333333
 $twos: #252525
 $blktint: rgba(0,0,0,.5)
 
-@mixin blackTint
+@mixin blacktint
   background: rgba(0,0,0,.5)
 
 //General
@@ -72,7 +72,6 @@ a
       width: 100%
       height: auto
 
-
 .masthead
   background: url(images/red_shape.png) right 60px no-repeat, url(images/stone.png)
   header
@@ -115,6 +114,7 @@ a
 //Front Page
 
 .featured-content
+  z-index: 1
   .primary, .secondary
     display: inline-block
     vertical-align: middle
@@ -128,9 +128,20 @@ a
     width: $cols9
     line-height: 0
     text-align: center
+    .ns-border-wrap
+      background: $white
+      display: inline-block
+      box-shadow: 3px -2px 5px $blktint
+      padding:
+        top: 10px
+        right: 10px
+        bottom: 0
+        left: 0
+      img
+        margin-left: -10px
 
 .caption
-  @include blackTint
+  @include blacktint
   color: $white
   padding: $gutter
   border-radius: 8px
@@ -160,6 +171,8 @@ a
 
 .colophon
   background: $threes
+  z-index: 2
+  position: relative
   color: $nines
   padding: $gutter 0
   a
@@ -195,5 +208,3 @@ a
     color: $white
     &:hover
       color: $sixes
-
-//Break Points
