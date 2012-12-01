@@ -75,7 +75,7 @@ a
 .masthead
   background: url(images/red_shape.png) right 60px no-repeat, url(images/stone.png)
   header
-    margin-bottom: 60px
+    padding-bottom: 60px
   .branding
     h1,h2
       text-align: left
@@ -164,6 +164,43 @@ a
     list-style: decimal outside
   p
     margin: 0 0 $gutter 0
+
+.two-column
+  background: $white
+  padding: $gutter*2 0
+  color: $threes
+  .wrapper
+    width: $cols14
+  .primary, .secondary
+    display: inline-block
+    vertical-align: top
+    box-sizing: border-box
+    white-space: nowrap
+    &>*
+      white-space: normal
+  .primary
+    width: $cols10
+    padding-left: $gutter
+    h1,h3,h5
+      font-size: 42px
+  .secondary
+    width: $cols4
+    border-right: 1px solid $cees
+    aside
+      padding: 0 $gutter
+      padding-bottom: $gutter
+      &:last-child
+        border-bottom: 1px solid $cees
+    h3
+      background: $nines
+      border-radius: 5px 0 0 0
+      color: $white
+      padding: 10px
+      width: 100%
+      font-weight: normal
+      @include gudearegular
+    ul
+      list-style-image: url(images/arrow.png)
 
 //Sidebar
 

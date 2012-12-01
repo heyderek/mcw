@@ -264,7 +264,7 @@ a {
 .masthead {
   background: url(images/red_shape.png) right 60px no-repeat, url(images/stone.png); }
   .masthead header {
-    margin-bottom: 60px; }
+    padding-bottom: 60px; }
   .masthead .branding h1, .masthead .branding h2 {
     text-align: left;
     text-indent: -9999em;
@@ -344,6 +344,43 @@ a {
   list-style: decimal outside; }
 .content p {
   margin: 0 0 20px 0; }
+
+.two-column {
+  background: white;
+  padding: 40px 0;
+  color: #333333; }
+  .two-column .wrapper {
+    width: 68.75em; }
+  .two-column .primary, .two-column .secondary {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    white-space: nowrap; }
+    .two-column .primary > *, .two-column .secondary > * {
+      white-space: normal; }
+  .two-column .primary {
+    width: 48.75em;
+    padding-left: 20px; }
+    .two-column .primary h1, .two-column .primary h3, .two-column .primary h5 {
+      font-size: 42px; }
+  .two-column .secondary {
+    width: 18.75em;
+    border-right: 1px solid #cccccc; }
+    .two-column .secondary aside {
+      padding: 0 20px;
+      padding-bottom: 20px; }
+      .two-column .secondary aside:last-child {
+        border-bottom: 1px solid #cccccc; }
+    .two-column .secondary h3 {
+      background: #999999;
+      border-radius: 5px 0 0 0;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      font-weight: normal;
+      font-family: "gudearegular", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
+    .two-column .secondary ul {
+      list-style-image: url(images/arrow.png); }
 
 .colophon {
   background: #333333;
