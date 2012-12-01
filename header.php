@@ -47,7 +47,7 @@
             <div class="primary content">
               <article class="caption">
                 <h3>Complete Facilities with a Strategic Location</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Whether you are an importer or an exporter, a manufacturer or distributor, a builder or a broker, Mid-Columbia can help solve your warehousing and distribution needs. Mid-Columbia Warehouses has been in the Pacific Northwest since 1967 with a staff that is committed to providing fast, efficient, personalized service.</p>
               </article><!-- /.caption -->
             </div><!-- /.primary -->
               <div class="secondary">
