@@ -262,6 +262,7 @@ a {
       height: auto; }
 
 .masthead {
+  background: url(images/stone.png);
   background: url(images/red_shape.png) right 60px no-repeat, url(images/stone.png); }
   .masthead header {
     padding-bottom: 60px; }
