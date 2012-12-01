@@ -3,7 +3,7 @@
           <aside>
             <h3>Address</h3>
             <address><span>Physical Address:</span> 1810 E Ainsworth, Pasco, WA 99301</address>
-            <address><span>Physical Address:</span> 1810 E Ainsworth, Pasco, WA 99301</address>
+            <address><span>Postal Address:</span> PO Box 1050, Pasco, WA 99301-1050</address>
             <p class="phone"><span>Phone:</span> 509-547-7761</p>
             <p class="phone"><span>Fax:</span> 509-547-2194</p>
           </aside>
@@ -21,7 +21,7 @@
         </footer><!-- /.wrapper -->
       </section><!-- /.colophon -->
       <footer class="credits wrapper">
-          <p>&copy 2012 Mid-Columbia Warehouses.  Brought to you by <a href="#">Rockwalla IT.</a></p>
+          <p>&copy 2012 <?php bloginfo('name'); ?>  Brought to you by <a href="#">Rockwalla IT.</a></p>
       </footer><!-- /.credits  -->
     </div><!-- /.page -->
   </body>
