@@ -129,6 +129,7 @@ a
     width: $cols9
     line-height: 0
     text-align: center
+    padding-left: $gutter
     .ns-border-wrap
       background: $white
       display: inline-block
@@ -140,6 +141,8 @@ a
         left: 0
       img
         margin-left: -10px
+        width: 100%
+        height: auto
 
 .caption
   background: url(images/blktint.png)
@@ -247,3 +250,26 @@ a
     color: $white
     &:hover
       color: $sixes
+
+//Break Points
+
+@media screen and (min-width: 0px) and (max-width: 1219px)
+  .menu
+    .logo
+      width: $cols4
+  .wrapper
+    width: $cols12
+  .featured-content
+    .primary
+      width: $cols5
+      h3
+        font-size: 36px
+    .secondary
+      width: $cols7
+  .two-column
+    .wrapper
+      width: $cols12
+      .primary
+        width: $cols8
+      .secondary
+        width: $cols4

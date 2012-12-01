@@ -312,7 +312,8 @@ a {
   .featured-content .secondary {
     width: 43.75em;
     line-height: 0;
-    text-align: center; }
+    text-align: center;
+    padding-left: 20px; }
     .featured-content .secondary .ns-border-wrap {
       background: white;
       display: inline-block;
@@ -322,7 +323,9 @@ a {
       padding-bottom: 0;
       padding-left: 0; }
       .featured-content .secondary .ns-border-wrap img {
-        margin-left: -10px; }
+        margin-left: -10px;
+        width: 100%;
+        height: auto; }
 
 .caption {
   background: url(images/blktint.png);
@@ -423,3 +426,24 @@ a {
     color: white; }
     .credits a:hover {
       color: #666666; }
+
+@media screen and (min-width: 0px) and (max-width: 1219px) {
+  .menu .logo {
+    width: 18.75em; }
+
+  .wrapper {
+    width: 58.75em; }
+
+  .featured-content .primary {
+    width: 23.75em; }
+    .featured-content .primary h3 {
+      font-size: 36px; }
+  .featured-content .secondary {
+    width: 33.75em; }
+
+  .two-column .wrapper {
+    width: 58.75em; }
+    .two-column .wrapper .primary {
+      width: 38.75em; }
+    .two-column .wrapper .secondary {
+      width: 18.75em; } }
