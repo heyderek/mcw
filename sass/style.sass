@@ -62,20 +62,26 @@ a
     li
       display: inline-block
       text-align: left
+  .logo
+    width: $cols5
+    display: block
+    position: absolute
+    top: 0
+    padding: 0
+    img
+      width: 100%
+      height: auto
+
 
 .masthead
-  background: url(images/red_shape.png) right 60px no-repeat, url(images/stone.png) 
+  background: url(images/red_shape.png) right 60px no-repeat, url(images/stone.png)
+  header
+    margin-bottom: 60px
   .branding
     h1,h2
       text-align: left
       text-indent: -9999em
       position: absolute
-    .logo
-      width: $cols5
-      display: block
-      img
-        width: 100%
-        height: auto
   .location
     position: absolute
     right: 0
@@ -106,7 +112,6 @@ a
         bottom: 2px solid $nines
         left: 2px solid $nines
 
-
 //Front Page
 
 .featured-content
@@ -135,7 +140,9 @@ a
 //Content
 
 .content
-  p, blockquote, ul, ol,
+  h2,h4,h6
+    font-weight: normal
+  p, blockquote, ul, ol, address
     line-height: 1.35em
   ul,ol
     margin: 0 0 $gutter 10px
@@ -153,7 +160,40 @@ a
 
 .colophon
   background: $threes
-  .credits
-    background: $twos
+  color: $nines
+  padding: $gutter 0
+  a
+    color: $cees
+    &:hover
+      color: $white
+  h1,h2,h3,h4,h5,h6
+    color: $white
+  aside
+    display: inline-block
+    vertical-align: top
+    width: $cols5
+    address, p
+      span
+        color: $white
+    .phone
+      margin: 0
+  .logo
+    width: $cols5
+    display: block
+    position: absolute
+    right: 0
+    top: $gutter
+    img
+      width: 100%
+      height: auto
+.credits
+  background: $twos
+  padding: $gutter 0
+  color: $cees
+  text-align: center
+  a
+    color: $white
+    &:hover
+      color: $sixes
 
 //Break Points

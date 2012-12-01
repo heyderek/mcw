@@ -251,19 +251,24 @@ a {
     .menu ul li {
       display: inline-block;
       text-align: left; }
+  .menu .logo {
+    width: 23.75em;
+    display: block;
+    position: absolute;
+    top: 0;
+    padding: 0; }
+    .menu .logo img {
+      width: 100%;
+      height: auto; }
 
 .masthead {
   background: url(images/red_shape.png) right 60px no-repeat, url(images/stone.png); }
+  .masthead header {
+    margin-bottom: 60px; }
   .masthead .branding h1, .masthead .branding h2 {
     text-align: left;
     text-indent: -9999em;
     position: absolute; }
-  .masthead .branding .logo {
-    width: 23.75em;
-    display: block; }
-    .masthead .branding .logo img {
-      width: 100%;
-      height: auto; }
   .masthead .location {
     position: absolute;
     right: 0;
@@ -314,7 +319,9 @@ a {
   .caption h1, .caption h2, .caption h3, .caption h4, .caption h5, .caption h6 {
     font-size: 52px; }
 
-.content p, .content blockquote, .content ul, .content ol {
+.content h2, .content h4, .content h6 {
+  font-weight: normal; }
+.content p, .content blockquote, .content ul, .content ol, .content address {
   line-height: 1.35em; }
 .content ul, .content ol {
   margin: 0 0 20px 10px;
@@ -327,6 +334,39 @@ a {
   margin: 0 0 20px 0; }
 
 .colophon {
-  background: #333333; }
-  .colophon .credits {
-    background: #252525; }
+  background: #333333;
+  color: #999999;
+  padding: 20px 0; }
+  .colophon a {
+    color: #cccccc; }
+    .colophon a:hover {
+      color: white; }
+  .colophon h1, .colophon h2, .colophon h3, .colophon h4, .colophon h5, .colophon h6 {
+    color: white; }
+  .colophon aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 23.75em; }
+    .colophon aside address span, .colophon aside p span {
+      color: white; }
+    .colophon aside .phone {
+      margin: 0; }
+  .colophon .logo {
+    width: 23.75em;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px; }
+    .colophon .logo img {
+      width: 100%;
+      height: auto; }
+
+.credits {
+  background: #252525;
+  padding: 20px 0;
+  color: #cccccc;
+  text-align: center; }
+  .credits a {
+    color: white; }
+    .credits a:hover {
+      color: #666666; }
