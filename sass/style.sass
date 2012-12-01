@@ -6,10 +6,12 @@
 
 $drk_red: #50150C
 $white: #ffffff
+$cees: #cccccc
 $nines: #999999
 $sixes: #666666
 $threes: #333333
 $twos: #252525
+$blktint: rgba(0,0,0,.5)
 
 @mixin blackTint
   background: rgba(0,0,0,.5)
@@ -27,6 +29,14 @@ h1,h2,h3,h4,h5,h6
   margin: 0 0 $gutter 0
   text-transform: uppercase
   @include gudeabold
+address
+  font-style: normal
+a
+  color: $drk_red
+  text-decoration: none
+  transition: all .3s ease-in
+  &:hover
+    color: $cees
 .wrapper
   width: $cols16
   margin: 0 auto
@@ -36,6 +46,17 @@ h1,h2,h3,h4,h5,h6
 
 .menu
   background: $threes
+  box-shadow: 1px 1px 4px $blktint
+  z-index: 1
+  position: relative
+  a
+    color: $white
+    padding: $gutter
+    display: block
+    text-transform: uppercase
+    font-size: 20px
+    &:hover
+      color: $nines
   ul
     text-align: right 
     li
@@ -43,7 +64,7 @@ h1,h2,h3,h4,h5,h6
       text-align: left
 
 .masthead
-  background: url(images/red_shape.png) right top no-repeat, url(images/stone.png) 
+  background: url(images/red_shape.png) right 60px no-repeat, url(images/stone.png) 
   .branding
     h1,h2
       text-align: left
@@ -55,16 +76,84 @@ h1,h2,h3,h4,h5,h6
       img
         width: 100%
         height: auto
+  .location
+    position: absolute
+    right: 0
+    top: 0
+    z-index: 0
+    color: $white
+    p, address
+      border-radius: 0 0 5px 5px
+      display: inline-block
+      vertical-align: top
+      box-shadow: 0 0 2px $blktint
+      padding: 10px $gutter
+      transition: all .3s ease-in
+      &:hover
+        padding: $gutter $gutter 10px
+    p
+      background: $nines
+      border:
+        top: none
+        right: 2px solid $cees
+        bottom: 2px solid $cees
+        left: 2px solid $cees
+    address
+      background: $sixes
+      border:
+        top: none
+        right: 2px solid $nines
+        bottom: 2px solid $nines
+        left: 2px solid $nines
+
 
 //Front Page
 
 .featured-content
-  
+  .primary, .secondary
+    display: inline-block
+    vertical-align: middle
+    box-sizing: border-box
+    white-space: nowrap
+    &>*
+      white-space: normal
+  .primary
+    width: $cols7
+  .secondary
+    width: $cols9
+    line-height: 0
+    text-align: center
+
+.caption
+  @include blackTint
+  color: $white
+  padding: $gutter
+  border-radius: 8px
+  h1,h2,h3,h4,h5,h6
+    font-size: 52px
 
 //Content
+
+.content
+  p, blockquote, ul, ol,
+    line-height: 1.35em
+  ul,ol
+    margin: 0 0 $gutter 10px
+    padding: 0 0 0 10px
+  ul
+    list-style: disc outside
+  ol
+    list-style: decimal outside
+  p
+    margin: 0 0 $gutter 0
 
 //Sidebar
 
 //Footer
+
+.colophon
+  background: $threes
+  .credits
+    background: $twos
 
 //Break Points
