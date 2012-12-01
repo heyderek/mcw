@@ -9,13 +9,31 @@ $white: #ffffff
 $nines: #999999
 $sixes: #666666
 $threes: #333333
+$twos: #252525
 
 @mixin blackTint
   background: rgba(0,0,0,.5)
 
 //General
 
+html
+  overflow-x: hidden
+body
+  background: $twos
+h1,h2,h3,h4,h5,h6
+  font-weight: normal
+  font-size: 22px
+  margin: 0 0 $gutter 0
+  text-transform: uppercase
+  @include gudeabold
+.wrapper
+  width: $cols16
+  margin: 0 auto
+  position: relative
+
 //Header
+
+
 
 //Front Page
 

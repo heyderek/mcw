@@ -203,3 +203,21 @@ body {
   src: url("fonts/gudea-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/gudea-regular-webfont.woff") format("woff"), url("fonts/gudea-regular-webfont.ttf") format("truetype"), url("fonts/gudea-regular-webfont.svg#gudearegular") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+html {
+  overflow-x: hidden; }
+
+body {
+  background: #252525; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 22px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  font-family: "gudeabold", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
+
+.wrapper {
+  width: 78.75em;
+  margin: 0 auto;
+  position: relative; }
