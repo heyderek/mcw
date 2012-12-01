@@ -222,3 +222,24 @@ h1, h2, h3, h4, h5, h6 {
   width: 78.75em;
   margin: 0 auto;
   position: relative; }
+
+.menu {
+  background: #333333; }
+  .menu ul {
+    text-align: right; }
+    .menu ul li {
+      display: inline-block;
+      text-align: left; }
+
+.masthead {
+  background: url(images/red_shape.png) right top no-repeat, url(images/stone.png); }
+  .masthead .branding h1, .masthead .branding h2 {
+    text-align: left;
+    text-indent: -9999em;
+    position: absolute; }
+  .masthead .branding .logo {
+    width: 23.75em;
+    display: block; }
+    .masthead .branding .logo img {
+      width: 100%;
+      height: auto; }
