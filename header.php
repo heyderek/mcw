@@ -4,7 +4,7 @@
   <head>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" title="stylesheet" type="text/css" media="screen" charset="utf-8">
     <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" />
-    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.js" charset="utf-8"></script>
     <!--[if lt IE 9]><script src="<?php bloginfo('template_url'); ?>/js/html5.js" charset="utf-8"></script><![endif]-->
     <script src="<?php bloginfo('template_url'); ?>/js/custom.js" charset="utf-8"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/prefixfree.min.js" charset="utf-8"></script>
@@ -24,6 +24,7 @@
         	echo ' | ' . sprintf( __( 'Page %s', 'toolbox' ), max( $paged, $page ) ); 
       ?>
     </title>
+    <?php wp_head(); ?>
   </head>
   <body>
     <div class="page">

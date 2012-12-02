@@ -22,6 +22,7 @@
       </section><!-- /.colophon -->
       <footer class="credits wrapper">
           <p>&copy 2012 <?php bloginfo('name'); ?>  Brought to you by <a href="#">Rockwalla IT.</a></p>
+          <?php wp_footer(); ?>
       </footer><!-- /.credits  -->
     </div><!-- /.page -->
   </body>
