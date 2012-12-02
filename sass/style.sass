@@ -54,6 +54,41 @@ a
   margin: 0 auto
   position: relative
 
+//UI Elements
+
+@mixin button
+  background: $nines
+  color: $white
+  @include gudeabold
+  font-size: 18px
+  border-radius: 5px
+  text-transform: uppercase
+  padding: 10px $gutter
+  border: none
+  margin: 0 0 20px
+  &:hover
+    background: $cees
+    color: $threes
+
+//Forms
+input[type="submit"],input[type="reset"]
+  @include button
+input[type="text"], textarea
+  display: block
+  width: 20em
+  margin: 0 0 20px
+  background: $cees
+  border: 1px solid $nines
+  border-radius: 8px
+  position: relative
+  z-index: 1
+  padding: 5px 10px
+  &:focus
+    background: $white
+label
+  display: block
+  margin: 0 0 10px 0
+
 //Header
 
 .menu
@@ -74,6 +109,8 @@ a
     li
       display: inline-block
       text-align: left
+    .current_page_item a
+      color: $nines
   .logo
     width: $cols5
     display: block
