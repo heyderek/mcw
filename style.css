@@ -397,6 +397,10 @@ a {
       font-family: "gudearegular", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
     .two-column .secondary ul {
       list-style-image: url(images/arrow.png); }
+      .two-column .secondary ul li a {
+        transition: all 0.3s ease-in; }
+        .two-column .secondary ul li a:hover {
+          padding: 0 20px; }
 
 .colophon {
   background: #333333;

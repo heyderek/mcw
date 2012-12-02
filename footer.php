@@ -12,7 +12,7 @@
             <ul>
               <li><a href="#">Customer Support</a></li>
               <li><a href="#">Accounting</a></li>
-              <li><a href="#">General Information</a></li>
+              <li><a href="<?php echo home_url('/general-information'); ?>">General Information</a></li>
             </ul>
           </aside>
           <a href="<?php echo home_url('/'); ?>" class="logo">
