@@ -39,8 +39,8 @@
             <h2><?php bloginfo('description'); ?></h2>
           </hgroup><!-- /.branding -->
           <div class="location">
-            <p>509-547-2194</p><!-- /.phone -->
-            <address>1810 Ainsworth, Pasco, WA 99301</address>
+            <p>509-547-7761</p><!-- /.phone -->
+            <address>1810 Ainsworth St., Pasco, WA 99301</address>
           </div><!-- /.location -->
         </header><!-- /.wrapper -->
         <?php if(is_home() || is_front_page()) : ?>

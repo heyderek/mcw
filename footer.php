@@ -2,7 +2,7 @@
         <footer class="wrapper">
           <aside>
             <h3>Address</h3>
-            <address><span>Physical Address:</span> 1810 E Ainsworth, Pasco, WA 99301</address>
+            <address><span>Physical Address:</span> 1810 E Ainsworth St., Pasco, WA 99301</address>
             <address><span>Postal Address:</span> PO Box 1050, Pasco, WA 99301-1050</address>
             <p class="phone"><span>Phone:</span> 509-547-7761</p>
             <p class="phone"><span>Fax:</span> 509-547-2194</p>
