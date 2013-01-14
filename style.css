@@ -394,6 +394,10 @@ label {
 .content p {
   margin: 0 0 20px 0; }
 
+.primary img {
+  max-width: 100%;
+  height: auto; }
+
 .two-column {
   background: white;
   padding: 40px 0;

@@ -52,7 +52,7 @@
               </article><!-- /.caption -->
             </div><!-- /.primary -->
               <div class="secondary">
-                <div class="ns-border-wrap"><img src="<?php bloginfo('template_url'); ?>/images/stockholder.jpg" /></div><!-- /.ns-border-wrap -->
+                <div class="ns-border-wrap"><img src="<?php bloginfo('template_url'); ?>/images/exterior.jpg" alt="Mid Columbia Warehouses Building" /></div><!-- /.ns-border-wrap -->
               </div><!-- /.secondary-->
           </section><!-- /.featured-content -->
         <?php endif; ?>
