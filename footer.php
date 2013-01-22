@@ -10,9 +10,9 @@
           <aside>
             <h3>Contact</h3>
             <ul>
-              <li><a href="#">Customer Support</a></li>
-              <li><a href="#">Accounting</a></li>
-              <li><a href="<?php echo home_url('/general-information'); ?>">General Information</a></li>
+              <li><a href="<?php echo home_url('/'); ?>/contact">Customer Support</a></li>
+              <li><a href="<?php echo home_url('/'); ?>/contact">Accounting</a></li>
+              <li><a href="<?php echo home_url('/'); ?>/general-information">General Information</a></li>
             </ul>
           </aside>
           <a href="<?php echo home_url('/'); ?>" class="logo">
